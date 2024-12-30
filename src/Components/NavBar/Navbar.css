@@ -2,7 +2,10 @@ nav
 {
     display: flex;
     max-width: 1377px;
+    position: fixed;
     margin: 0px auto;
+    left: 14.1%;
+    width: 100%;
     height: 10vh;
     /* background-color: black; */
     justify-content: space-between;

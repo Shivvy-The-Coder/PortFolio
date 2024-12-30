@@ -2,7 +2,11 @@ import Buttons from "../Buttons/Buttons";
 import style from "./FirstPage.module.css";
 import { FaCircleUser } from "react-icons/fa6";
 
-const FirstPage = () => {
+const FirstPage = ({isonline,...rest}) => {
+
+    let showB =style.offline;
+    if(isonline)
+      showB =style.online;
   return (
     <div className={style.container}>
 
@@ -11,8 +15,8 @@ const FirstPage = () => {
           <div className={style.sectionOne}>
               
               <div><FaCircleUser fontSize="24px" /></div>
-              <div className={style.online}></div>
-              <div><p>Open TO Work</p></div>
+              <div {...rest} className={showB}></div>
+              <div><p>Open to Work</p></div>
            </div>
           </fbar>
            

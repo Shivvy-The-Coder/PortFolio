@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
     <Navbar/>
-    <FirstPage/>
+    <FirstPage isonline={true}/>
     </>
   )
 }

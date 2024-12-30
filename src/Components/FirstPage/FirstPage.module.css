@@ -62,13 +62,14 @@ font-family: "Anton", serif;
     display: flex;
     justify-content: flex-start;
     align-items: center; 
-    gap: 1.5rem; 
+    gap:7px
 }
 
 .online {
     background-color: green;
     height: 8px;
     width: 8px;
+    border-radius: 50%;
 }
 fbar
 {
@@ -76,4 +77,11 @@ fbar
     justify-content: flex-start;
 
     width: 85%;
+}
+
+.sectionOne p
+{
+    padding-left:20px ;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
