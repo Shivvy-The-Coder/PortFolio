@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 5%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 1px;
+    max-width: 1377px;
+    /* background-color: rgb(30, 32, 34); */
+
+
+}
+.container>div
+{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    
+    
+}
+.container div h1
+{
+color: white;
+text-align: center;
+font-size: 48px;
+text-wrap: wrap;
+font-family: "Anton", serif;
+}
+
+
+.container>div>div
+{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.online
+{
+    background-color: green;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+.offline
+{
+    background-color:red;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+.sectionOne {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    gap: 1.5rem; 
+}
+
+.online {
+    background-color: green;
+    height: 8px;
+    width: 8px;
+}
+fbar
+{
+    display: flex;
+    justify-content: flex-start;
+
+    width: 85%;
+}

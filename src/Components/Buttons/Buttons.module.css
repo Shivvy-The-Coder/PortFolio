@@ -1,0 +1,48 @@
+
+.ButtonDiv
+{
+font-size: 13px;
+display: flex;
+text-align: center;
+height: 3vh;
+width: 100%;
+padding:5px 12px;
+justify-content: center;
+align-items: center;
+background-color:transparent;
+color: white;
+transition: 0.6s background ease-in;
+border-radius: 5px;
+
+&:hover
+{
+    background-color: #c7c1c1;
+    color: black;
+    transition: .7s background ease-in;
+}
+}
+
+
+.ButtonAlter
+{
+font-size: 13px;
+display: flex;
+text-align: center;
+height: 3vh;
+width: 100%;
+padding:5px 12px;
+justify-content: center;
+align-items: center;
+background-color:whitesmoke;
+color: black;
+transition: 0.6s background ease-in;
+border-radius: 5px;
+
+&:hover
+{
+    background-color: #0c0c0c;
+    color: rgb(240, 235, 235);
+    transition: .7s background ease-in;
+    border: 1px solid rgb(236, 235, 235);
+}
+}

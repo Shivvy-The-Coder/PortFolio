@@ -1,0 +1,35 @@
+nav
+{
+    display: flex;
+    max-width: 1377px;
+    margin: 0px auto;
+    height: 10vh;
+    /* background-color: black; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;  
+}
+
+
+.options
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;   
+    height: 5vh;
+    box-sizing: border-box;     
+    justify-content:center;
+    gap: 3%;
+    align-items: center;
+    background-color: rgba(71, 71, 71, 0.589);
+    border-radius: 7px;
+    padding: 0px;
+
+
+}
+
+.logo img
+{
+    height: 10vh;
+    
+}
